@@ -33,4 +33,21 @@ public:
 		}
 		return maxPro;
 	}
+		int maxProfit2(vector<int>& prices){
+
+			if (prices.size() < 2)
+				return 0;
+
+			int maxPro = 0;
+			int currentMin = prices[0];
+
+			for (int i = 0; i < prices.size(); i++)
+			{
+				if (prices[i] < currentMin)
+					currentMin = prices[i];
+				if (prices[i] - currentMin > maxPro)
+					maxPro = prices[i] - currentMin;
+			}
+			return maxPro;
+		}
 };

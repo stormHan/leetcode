@@ -1,43 +1,149 @@
-﻿生成启动时间为 2016/4/1 12:45:03。
+﻿生成启动时间为 2016/4/3 19:28:25。
      1>项目“E:\Algorithms\leetcode\Leetcode\Leetcode\Leetcode.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         E:\VS2013\VC\bin\CL.exe /c /IE:\boost_1_57_0 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SingleNumber.cpp SummaryRange.cpp "源.cpp"
+         E:\VS2013\VC\bin\CL.exe /c /IE:\boost_1_57_0 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 3sum.cpp Convert_Sorted_To_BST.cpp LinkedListCircle.cpp Min_Stack.h Reverse_Integer.cpp SortList.cpp SummaryRange.cpp isUgly.cpp "源.cpp"
          源.cpp
-     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h(31): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h(35): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h(81): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h(83): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\algorithms\leetcode\leetcode\leetcode\binarytreenodes.h(58): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
-     1>e:\algorithms\leetcode\leetcode\leetcode\searchforrange.h(28): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\algorithms\leetcode\leetcode\leetcode\源.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(1): error C2059: 语法错误:“<<”
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(3): error C2143: 语法错误 : 缺少“;”(在“--”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(3): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(10): error C2146: 语法错误: 缺少“;”(在标识符“to”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(10): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(10): error C2146: 语法错误: 缺少“;”(在标识符“the”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(10): error C2146: 语法错误: 缺少“;”(在标识符“definition”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(10): error C2146: 语法错误: 缺少“;”(在标识符“of”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(10): error C2146: 语法错误: 缺少“;”(在标识符“h”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(10): error C2143: 语法错误 : 缺少“;”(在“-”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(10): error C2001: 常量中有换行符
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(10): error C2059: 语法错误:“字符串”
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(12): error C2001: 常量中有换行符
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(18): error C2146: 语法错误: 缺少“;”(在标识符“there”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(18): error C2146: 语法错误: 缺少“;”(在标识符“are”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(18): error C2146: 语法错误: 缺少“;”(在标识符“several”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(18): error C2146: 语法错误: 缺少“;”(在标识符“possible”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(18): error C2146: 语法错误: 缺少“;”(在标识符“values”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(18): error C2143: 语法错误 : 缺少“;”(在“for”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(20): warning C4138: 在注释外找到“*/”
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(26): error C2065: “vector”: 未声明的标识符
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(26): error C2062: 意外的类型“int”
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(27): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(27): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(56): error C2065: “vector”: 未声明的标识符
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(56): error C2062: 意外的类型“int”
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(57): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(57): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(84): error C2001: 常量中有换行符
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(86): error C2001: 常量中有换行符
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(94): warning C4138: 在注释外找到“*/”
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(149): error C2021: 应输入指数值而非“c”
+     1>e:\algorithms\leetcode\leetcode\leetcode\h_index.h(149): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(93): error C2021: 应输入指数值而非“c”
+     1>e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(93): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h(9): error C2001: 常量中有换行符
+     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h(9): error C2015: 常量中的字符太多
+     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h(12): warning C4138: 在注释外找到“*/”
+     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h(145): error C2001: 常量中有换行符
+     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h(145): error C2015: 常量中的字符太多
+     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h(148): warning C4138: 在注释外找到“*/”
+     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h(273): error C2021: 应输入指数值而非“c”
+     1>e:\algorithms\leetcode\leetcode\leetcode\largestrectanglearea.h(273): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\algorithms\leetcode\leetcode\leetcode\binarytreenodes.h(245): error C2021: 应输入指数值而非“c”
+     1>e:\algorithms\leetcode\leetcode\leetcode\binarytreenodes.h(245): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\algorithms\leetcode\leetcode\leetcode\searchforrange.h(95): error C2021: 应输入指数值而非“c”
+     1>e:\algorithms\leetcode\leetcode\leetcode\searchforrange.h(95): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\algorithms\leetcode\leetcode\leetcode\源.cpp(53): fatal error C1004: 发现意外的文件尾
+         isUgly.cpp
+     1>e:\algorithms\leetcode\leetcode\leetcode\isugly.cpp(1): error C2059: 语法错误:“<<”
+     1>e:\algorithms\leetcode\leetcode\leetcode\isugly.cpp(12): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\isugly.cpp(12): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\algorithms\leetcode\leetcode\leetcode\isugly.cpp(73): error C2021: 应输入指数值而非“c”
+     1>e:\algorithms\leetcode\leetcode\leetcode\isugly.cpp(73): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\algorithms\leetcode\leetcode\leetcode\isugly.cpp(75): fatal error C1004: 发现意外的文件尾
          SummaryRange.cpp
-     1>e:\algorithms\leetcode\leetcode\leetcode\summaryrange.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
-         SingleNumber.cpp
-     1>e:\algorithms\leetcode\leetcode\leetcode\singlenumber.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\algorithms\leetcode\leetcode\leetcode\summaryrange.cpp(1): error C2059: 语法错误:“<<”
+     1>e:\vs2013\vc\include\sal.h(2381): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\vs2013\vc\include\sal.h(2381): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\algorithms\leetcode\leetcode\leetcode\summaryrange.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\algorithms\leetcode\leetcode\leetcode\summaryrange.cpp(89): error C2143: 语法错误 : 缺少“;”(在“==”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\summaryrange.cpp(110): error C2601: “summaryRange”: 本地函数定义是非法的
+                 e:\algorithms\leetcode\leetcode\leetcode\summaryrange.cpp(22):  此行有一个“{”没有匹配项
+     1>e:\algorithms\leetcode\leetcode\leetcode\summaryrange.cpp(177): error C2021: 应输入指数值而非“c”
+     1>e:\algorithms\leetcode\leetcode\leetcode\summaryrange.cpp(177): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\algorithms\leetcode\leetcode\leetcode\summaryrange.cpp(179): fatal error C1075: 与左侧的 大括号“{”(位于“e:\algorithms\leetcode\leetcode\leetcode\summaryrange.cpp(22)”)匹配之前遇到文件结束
+         SortList.cpp
+     1>e:\algorithms\leetcode\leetcode\leetcode\sortlist.cpp(1): error C2059: 语法错误:“<<”
+     1>e:\vs2013\vc\include\sal.h(2381): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\vs2013\vc\include\sal.h(2381): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\algorithms\leetcode\leetcode\leetcode\sortlist.cpp(121): error C2059: 语法错误:“==”
+     1>e:\algorithms\leetcode\leetcode\leetcode\sortlist.cpp(136): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>e:\algorithms\leetcode\leetcode\leetcode\sortlist.cpp(145): error C3769: “Solution”: 嵌套类不能与它的直接封闭类同名
+     1>e:\algorithms\leetcode\leetcode\leetcode\sortlist.cpp(241): error C2059: 语法错误:“>>”
+     1>e:\algorithms\leetcode\leetcode\leetcode\sortlist.cpp(241): error C2021: 应输入指数值而非“c”
+     1>e:\algorithms\leetcode\leetcode\leetcode\sortlist.cpp(241): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\algorithms\leetcode\leetcode\leetcode\sortlist.cpp(242): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\sortlist.cpp(242): error C2238: 意外的标记位于“;”之前
+     1>e:\algorithms\leetcode\leetcode\leetcode\sortlist.cpp(243): fatal error C1075: 与左侧的 大括号“{”(位于“e:\algorithms\leetcode\leetcode\leetcode\sortlist.cpp(25)”)匹配之前遇到文件结束
+         Reverse_Integer.cpp
+     1>e:\algorithms\leetcode\leetcode\leetcode\reverse_integer.cpp(1): error C2059: 语法错误:“<<”
+     1>e:\vs2013\vc\include\sal.h(2381): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\vs2013\vc\include\sal.h(2381): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\algorithms\leetcode\leetcode\leetcode\reverse_integer.cpp(62): error C2059: 语法错误:“==”
+     1>e:\algorithms\leetcode\leetcode\leetcode\reverse_integer.cpp(66): error C3769: “Solution”: 嵌套类不能与它的直接封闭类同名
+     1>e:\algorithms\leetcode\leetcode\leetcode\reverse_integer.cpp(66): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>e:\algorithms\leetcode\leetcode\leetcode\reverse_integer.cpp(123): error C2021: 应输入指数值而非“c”
+     1>e:\algorithms\leetcode\leetcode\leetcode\reverse_integer.cpp(123): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\algorithms\leetcode\leetcode\leetcode\reverse_integer.cpp(125): fatal error C1075: 与左侧的 大括号“{”(位于“e:\algorithms\leetcode\leetcode\leetcode\reverse_integer.cpp(5)”)匹配之前遇到文件结束
+         Min_Stack.h
+     1>e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(1): error C2059: 语法错误:“<<”
+     1>e:\vs2013\vc\include\sal.h(2381): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\vs2013\vc\include\sal.h(2381): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(47): error C2059: 语法错误:“==”
+     1>e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(50): error C2238: 意外的标记位于“;”之前
+     1>e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(53): error C3769: “MinStack”: 嵌套类不能与它的直接封闭类同名
+     1>e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(93): error C2059: 语法错误:“>>”
+     1>e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(93): error C2021: 应输入指数值而非“c”
+     1>e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(93): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(94): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(94): error C2238: 意外的标记位于“;”之前
+     1>e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(95): fatal error C1075: 与左侧的 大括号“{”(位于“e:\algorithms\leetcode\leetcode\leetcode\min_stack.h(7)”)匹配之前遇到文件结束
+         LinkedListCircle.cpp
+         Convert_Sorted_To_BST.cpp
+     1>e:\algorithms\leetcode\leetcode\leetcode\convert_sorted_to_bst.cpp(1): error C2059: 语法错误:“<<”
+     1>e:\vs2013\vc\include\sal.h(2381): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\vs2013\vc\include\sal.h(2381): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\algorithms\leetcode\leetcode\leetcode\convert_sorted_to_bst.cpp(59): error C2059: 语法错误:“==”
+     1>e:\algorithms\leetcode\leetcode\leetcode\convert_sorted_to_bst.cpp(73): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>e:\algorithms\leetcode\leetcode\leetcode\convert_sorted_to_bst.cpp(90): error C3769: “Solution”: 嵌套类不能与它的直接封闭类同名
+     1>e:\algorithms\leetcode\leetcode\leetcode\convert_sorted_to_bst.cpp(117): error C2059: 语法错误:“>>”
+     1>e:\algorithms\leetcode\leetcode\leetcode\convert_sorted_to_bst.cpp(117): error C2021: 应输入指数值而非“c”
+     1>e:\algorithms\leetcode\leetcode\leetcode\convert_sorted_to_bst.cpp(117): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\algorithms\leetcode\leetcode\leetcode\convert_sorted_to_bst.cpp(118): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\convert_sorted_to_bst.cpp(118): error C2238: 意外的标记位于“;”之前
+     1>e:\algorithms\leetcode\leetcode\leetcode\convert_sorted_to_bst.cpp(119): fatal error C1075: 与左侧的 大括号“{”(位于“e:\algorithms\leetcode\leetcode\leetcode\convert_sorted_to_bst.cpp(32)”)匹配之前遇到文件结束
+         3sum.cpp
+     1>e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(1): error C2059: 语法错误:“<<”
+     1>e:\vs2013\vc\include\sal.h(2381): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\vs2013\vc\include\sal.h(2381): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(147): error C2059: 语法错误:“==”
+     1>e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(150): error C2238: 意外的标记位于“;”之前
+     1>e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(152): error C3769: “Solution”: 嵌套类不能与它的直接封闭类同名
+     1>e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(234): error C2535: “std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> Solution::Solution::threeSum(std::vector<_Ty,std::allocator<_Ty>> &)”: 已经定义或声明成员函数
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(191) : 参见“Solution::Solution::threeSum”的声明
+     1>e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(293): error C2059: 语法错误:“>>”
+     1>e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(293): error C2021: 应输入指数值而非“c”
+     1>e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(293): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(294): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(294): error C2238: 意外的标记位于“;”之前
+     1>e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(295): fatal error C1075: 与左侧的 大括号“{”(位于“e:\algorithms\leetcode\leetcode\leetcode\3sum.cpp(6)”)匹配之前遇到文件结束
          正在生成代码...
-     1>e:\algorithms\leetcode\leetcode\leetcode\binarytreenodes.h(122): warning C4715: “countNodes__”: 不是所有的控件路径都返回值
-       Link:
-         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Algorithms\leetcode\Leetcode\Debug\Leetcode.exe" /INCREMENTAL /NOLOGO opencv_ocl248d.lib opencv_stitching248d.lib opencv_videostab248d.lib opencv_superres248d.lib opencv_nonfree248d.lib opencv_gpu248d.lib opencv_legacy248d.lib opencv_contrib248d.lib opencv_calib3d248d.lib opencv_ts248d.lib opencv_features2d248d.lib opencv_objdetect248d.lib opencv_highgui248d.lib opencv_video248d.lib opencv_photo248d.lib opencv_imgproc248d.lib opencv_ml248d.lib opencv_flann248d.lib opencv_core248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Algorithms\leetcode\Leetcode\Debug\Leetcode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Algorithms\leetcode\Leetcode\Debug\Leetcode.lib" /MACHINE:X86 Debug\3sum.obj
-         Debug\add2Numbers.obj
-         Debug\BestTime2BuyandSellStoack_I.obj
-         Debug\Convert_Sorted_To_BST.obj
-         Debug\isUgly.obj
-         Debug\Min_Stack.obj
-         Debug\Permutations.obj
-         Debug\Reverse_Integer.obj
-         Debug\SetMatrix.obj
-         Debug\SingleNumber.obj
-         Debug\SortList.obj
-         Debug\SpiralMatrix.obj
-         Debug\SummaryRange.obj
-         Debug\Trie.obj
-         Debug\TwoSum.obj
-         Debug\UniquePath.obj
-         Debug\WordBreak.obj
-         "Debug\源.obj"
-         Leetcode.vcxproj -> E:\Algorithms\leetcode\Leetcode\Debug\Leetcode.exe
-     1>已完成生成项目“E:\Algorithms\leetcode\Leetcode\Leetcode\Leetcode.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“E:\Algorithms\leetcode\Leetcode\Leetcode\Leetcode.vcxproj”(Build 个目标)的操作 - 失败。
 
-生成成功。
+生成失败。
 
-已用时间 00:00:02.57
+已用时间 00:00:01.02

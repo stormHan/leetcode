@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ <<<<<<< HEAD
 #include <vector>
 #include <map>
 using namespace std;

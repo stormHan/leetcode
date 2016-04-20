@@ -149,4 +149,30 @@ public:
 		}
 
 	}
+
+    ListNode* oddEvenList(ListNode* head) {
+        if (head == NULL)return head;
+        if (head->next == NULL) return head;
+
+        ListNode *p = head, *q = head->next;
+        ListNode *store = head->next;
+
+        while (q != NULL)
+        {
+            p->next = q->next;
+            if (p->next != NULL)
+            {
+                q->next = p->next->next;
+
+                p = p->next;
+                q = q->next;
+            }
+            else
+            {
+                break;
+            }
+        }
+        p->next = store;
+        return head;
+    }
 }; 

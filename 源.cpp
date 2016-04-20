@@ -1,49 +1,90 @@
-#include <stdio.h>
+#include <iostream>
+#include <sstream>
+#include <string>
 #include <vector>
 
 using namespace std;
 
+//#define ONE		0x0100100
+//#define TWO		0x1011101
+//#define THREE	0x1101101
+//#define FOUR    0x0101110
+//#define FIVE	0x1101011
+//#define SIX		0x1111011
+//#define SEVEN	0x0100101
+//#define EIGHT	0x1111111
+//#define NINE	0x1101111
+//#define ZERO	0x1110111\
+
+
+int K, N, S;
+int ans = 0;
+bool led[5][10]; //代表K个数字中，每个能拼成的哪些数字， 0 代表不能拼成，1代表能拼成
+bool old[10][9] = {
+	{ 0, 1, 1, 1, 1, 1, 1, 1 },
+	{ 0, 0, 0, 1, 0, 0, 1, 0 },
+	{ 0, 1, 0, 1, 1, 1, 0, 1 },
+	{ 0, 1, 1, 1, 1, 0, 1, 1 },
+	{ 0, 0, 1, 1, 1, 0, 1, 0 },
+
+	{ 0, 1, 1, 0, 1, 0, 1, 1 },
+	{ 0, 1, 1, 0, 1, 1, 1, 1 },
+	{ 0, 1, 0, 1, 0, 0, 1, 0 },
+	{ 0, 1, 1, 1, 1, 1, 1, 1 },
+	{ 0, 1, 1, 1, 1, 0, 1, 1 }
+};
+
+void dfs(int step, int value)
+{
+	if (step == K)
+	{
+		if (value < N) ans++;
+	}
+	else
+	{
+		for (int i = 0; i < 10; ++i)
+		{
+			if (led[step][i])
+			{
+				value *= 10;
+				value += i;
+
+				dfs(step + 1, value);
+			}
+		}
+	}
+}
+
 int main()
 {
-	int TASKS;
-
-	scanf("%d", &TASKS);
-
-	while (TASKS != 0)
+	cin >> S;
+	while (S--)
 	{
-		int N, P, W, H;
-		int p1, q1;
-		vector<int> a;
-		int total_h = 0;
-		int max_size = 0;
-
-		scanf("%d %d %d %d", &N, &P, &W, &H);
-		for (int i = 0; i < N; ++i)
+		cin >> K >> N;
+		for (int i = 0; i < K; ++i)
 		{
-			int temp;
-			scanf("%d", &temp);
-			a.push_back(temp);
-		}
-		int min;
-		if (H > W) min = W;
-		else
-			min = H;
-
-		for (int i = 1; i < min; ++i)
-		{
-			p1 = H / i;
-			q1 = W / i;
-
-			for (int j = 0; j < N; j++)
+			string s;
+			getline(cin, s);
+			istringstream str(s);
+			int c;
+			while (str >> c)
 			{
-				total_h += a[j] / q1 + 1;
+				for (int j = 0; j < 10; ++j)
+				{
+					if (old[j][c] && led[i][j])
+					{
+						led[i][j] = true;
+					}
+					else
+					{
+						led[i][j] = false;
+					}
+				}
 			}
-			if (total_h < p1 * P)
-				max_size = i;
-			else
-				break;
 		}
-		printf("%d\n", max_size);
-		TASKS--;
+		dfs(0, 0);
+		cout << ans << endl;
 	}
+
+	return 0;
 }
